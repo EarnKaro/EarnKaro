@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable = 0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Refer and Earn </title>
+  <style>
+        *{
+          margin: 0px;
+          padding : 0px;
+          font-family: arial;
+          user-select: none;
+        }
+     
+        @media only screen and (max-width: 600px){
+          .logd,.signd{
+            color: #1627DF;
+          }
+          .sign ,.log-sub{
+           outline: none;
+           background: black;
+           border: none;
+           color: white;
+           height: 30px;
+           width: 80px;
+           border-radius : 5px;
+           font-size : 17px;
+           margin: 10px;
+          }
+           .inputValues input,.inputlogin input{
+            outline-color: #1627DF;
+            font-size: 16px;
+            border-radius: 6px;
+            border: none;
+            border: 1px solid black;
+            color: #000000;
+            height : 25px;
+           
+          }
+          input::placeholder{
+            font-size: 14px;
+          }
+          .home{
+            font-size : 19px;
+          }
+          header{
+            position: sticky;
+            top: 0px;
+            height: 60px;
+            background: #E9E8E5;
+            display: flex;
+           justify-content: space-between;
+            align-items: center;
+          }
+          .left h1{
+            color : #27241E;
+          }
+          .right{
+            margin-right: 10px;}
+           footer{
+             position: sticky;
+             bottom: 0px;
+             height: 55px;
+             display: flex;
+             align-items: center;
+             justify-content: space-around;
+             background: #BBC2AD;
+             border-top-left-radius: 45px;
+             border-top-right-radius: 45px;
+           }
+           footer i{
+            font-size: 20px;
+           }
+          footer i:hover{
+            
+            border-radius: 50%;
+            height: 45px;
+            width: 45px;
+          }
+          .wbox{
+            border-bottom: 1px dashed black;
+            height: 40px;
+            width : 90px;
+            /*border-radius : 10px;*/
+            border-right: 1px dashed black;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .reBox{
+            margin-top: 20px;
+            height: 150px;
+            width: 280px;
+            border: 2px dashed black;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .box{
+            width : 250px;
+            height: 200px;
+           
+          }
+          .referShare{
+            outline-color: none;
+            background: black;
+            height: 30px;
+            width: 80px;
+            border: none;
+            color: white;
+            border-radius: 10px;
+          }
+          .referData{
+            width: 100%;
+            margin-top: 10px;
+            min-height: 60vh;
+           
+          }
+          .userbyrefer{
+            border: 1px solid black;
+            border-radius: 50px;
+            width: 290px;
+            margin-top: 20px;
+            margin-right: 50px;
+            margin-top: 10px;
+          }
+          .spinReward{
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .shareTask{
+            display: flex;
+            
+          }
+          .shareTask button,.appDownBut button{
+            height: 30px;
+           width: 80px;
+           outline-color:none;
+           border:none;
+           background: black;
+           border-radius: 10px;
+           color:white;
+          }
+ .spinReward img{
+   height: 100px;
+ }
+ .spinName{
+   font-size: 20px;
+   text-shadow: 0 2px 4px gray;
+   font-weight: 500;
+   color: #5A4242
+  
+ }
+ .appSections{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+ }
+ .transDetail{
+   margin-top: 20px;
+   display: flex;
+   justify-content: center ;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .typeName{
+  font-weight: 300;
+  color: #1F211E;
+   min-width: 150px;
+ }
+ .typeW{
+   
+   min-width : 150px;
+ }
+.amo{
+  color: green;
+}
+.with{
+  color: red;
+}
+        }
+  </style>
+</head>
+
+<body>
+  <div class="home"></div>
+  <div class="home-main"></div>
+
+<!--<header>
+    <div class="left" style="margin-left: 10px;">
+      <h1>Earn Karo</h1>
+      <p>Per Refer ₹50</p>
+    </div>
+    <div class="right">
+        
+        <div class="wbox">
+       
+          <div class="wlogo">
+            <p style="font-size: 20px; margin-left:2px; "><i class="fas fa-wallet"></i></p>
+          </div>
+          <div class="wball">
+            <h3 style="color: green; margin-right: 5px; font-size: 16px; font-weight: 450;">₹40000</h3>
+          </div>
+        </div>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+   
+  </div>
+      
+  </main>
+   
+  <footer>
+    <div class="homeSection">
+      <i class="fas fa-home"></i>
+     
+    </div>
+    <div class="referSection">
+      <i class="fas fa-share-alt"></i>
+    
+    </div>
+    <div class="taskSection">
+      <i class="fas fa-exchange-alt"></i>
+      
+    </div>
+    <div class="profileSection">
+      <i class="fas fa-user"></i>
+    
+    </div>
+  </footer>
+    
+</div>-->
+
+      
+</body>
+<script>
+let captcha = generateCaptcha();
+onload()
+function onload(){
+mainHomePage();
+//signup();
+//capcode();
+}
+    function generateCaptcha() {
+  var captcha = '';
+  var characters = '0123456789';
+  var charactersLength = characters.length;
+  for (var i = 0; i < 4; i++) {
+    captcha += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return captcha;
+}
+let url = 'https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec';
+function capcode(){
+  let textArea = document.querySelector('.captcha');
+  textArea.innerText= `Captcha : ${captcha} `;
+}
+
+
+function signup(){
+  let homePage = document.querySelector('.home');
+  homePage.innerHTML = ` <div class="signuppage">
+        
+        <div class="signtextarea">
+         <center><h2>Refer and Earn </h2>
+         Per Refer ₹50
+         <h3>Sign Up </h3>
+         <hr/>
+         </center>
+        </div>
+         <center>
+           <br/>
+        <div class="inputValues" >
+          Enter Your Full Name<br/>
+        <input class="name" type="text" id="name" placeholder="Enter your name" maxlength="20"/><br/>
+        Mobile Number<br/>
+        
+        <input class="name" type="text" id="mobile" placeholder="Mobile Number" pattern="[6-9][0-9]{9}" maxlength="10"/><br/>
+        Email <br/>
+       
+<input class="name" type="email" placeholder="Email adress" id="email"/><br/>
+ Password<br/>
+<input class="name" type="password" placeholder="Password" id="password" /><br/>
+Confirm Password <br/>
+<input class="name" type="text" placeholder="confirm password"id="cnpassword"/><br/>
+Refer Code <br/>
+<input class="name" type="text" placeholder="Refer code"
+pattern="[a-zA-Z]{4}[0-9]{4}" maxlength="8"  id="refer" /><br/>
+Captcha Code <br/>
+<input class="captchaval" type="number" pattern="[0-9]{4}" maxlength="4" id="captchaValue"/><br/>
+<br/>
+<h2 class="captcha">Captcha : 4311</h2>
+        </div>
+        </center>
+        
+         <center>
+           <button class="sign"onclick="signIn();">Sign Up</button>
+           <p class="logd" onclick="loginPage();">Already have a account ? login</p>
+         </center>
+      </div>`;
+      capcode();
+}
+function loginPage(){
+  let homePage = document.querySelector('.home');
+  homePage.innerHTML = `    <center>
+        <h2>Refer and Earn</h2>
+        <p>Per Refer ₹50</p>
+        <h3>Login</h3>
+        <hr/>
+        <br/>
+        <div class="inputlogin">
+        Mobile Number<br/>
+        <input class="name" type="text" placeholder="Mobile Number" pattern="[6-9][0-9]{9}" maxlength="10"/><br/>
+        Password<br/>
+        <input type="password" class="pass-log" placeholder="Password"/><br/>
+        Captcha<br/>
+        <input type="number"/><br/><br/>
+        </div>
+        <h2 class="captcha"></h2>
+        <button class="log-sub">Login</button>
+        <p class="signd" onclick="signup();">New Account Registration ? Click here </p>
+        
+    </center> `;
+    capcode();
+}
+function signIn(){
+  
+ let capVal = captcha;
+  let name = document.querySelector('#name').value;
+  let mobile= document.querySelector('#mobile').value;
+  let email = document.querySelector('#email').value;
+  let password = document.querySelector('#password').value;
+  let cnpassword = document.querySelector('#cnpassword').value;
+  let refer = document.querySelector('#refer').value;
+  let cpValue = document.querySelector('#captchaValue').value;
+  var referCode = generateRefer();
+  if(password!==cnpassword){
+    alert('Password mismatch')
+    return;
+  }
+  if (capVal !== cpValue) {
+    alert('Captcha not match');
+    return;}
+  fetch(`${url}`).then(function (response){return response.json()}).then(function (getData){
+    console.log(getData)
+    for(let i = 0 ;i<getData.length;i++){
+      if(getData[i].mobile===mobile||getData[i].email=== email){
+        alert("you are existing user");
+        return;
+       
+      }else{
+        sendData(name,mobile,email,password,referCode,refer);
+        referData(refer);
+       // reloadPage();
+        return;} }
+    } )
+    console.log('after data match')
+  
+
+/*ifconsole.log(cpValue);
+  console.log(capVal);*/
+  
+
+
+
+   
+//   
+  console.log('im here in last')
+  
+}
+
+function generateRefer() {
+    var chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var length = 6; // You can adjust the length of the CAPTCHA as needed
+    var referCode = "";
+    
+    for (var i = 0; i < length; i++) {
+        var randomIndex = Math.floor(Math.random() * chars.length);
+        referCode += chars[randomIndex];
+    }
+    
+    return referCode;
+}
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+}, false);
+// Example usage:
+function sendData(name,mobile,email,password,referCode,refer){
+  fetch('https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec').then(function(res){return res.json()}).then(function(data){
+     console.log(data.length)
+     let userData = {name : name,
+mobile : mobile,
+email : email,
+password : password,
+refer : referCode,
+referby : refer,
+wallet : 0,
+       // id : data.length+1,
+       }
+       fetch('https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec',{
+         method : 'POST',
+         headers : {
+           'content-Type':'application/json'
+         },
+         body : JSON.stringify(userData)
+       })
+       alert('Account created successfully ! please login ')
+     
+   })
+   
+   
+  
+}
+
+function referData(refer){
+  fetch('https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec').then(function (response) {return response.json()}).then(function (data){
+  for(let i = 0;i<data.length;i++){
+    if(refer===data[i].refer){
+      fetch('https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec').then(function (response){
+        return response.json()
+      }).then(function(data){
+      let wall=  data[i].wallet
+       let wallB= parseInt(wall);
+       wallB+=50;
+       let updateData = {
+         name : data[i].name,
+         mobile : data[i].mobile,
+         email : data[i].email,
+password : data[i].password,
+refer : data[i].refer,
+referby : data[i].referby,
+wallet : wallB,
+        // id : data.length+2,
+       };
+       
+       const apiUrl = `https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec/${data[i].mobile}`; // API URL with the ID of the row to delete
+
+fetch(apiUrl, {
+  method: 'DELETE', // Specify the method to delete data
+  headers: {
+    // Include any required headers here
+    // For example, authorization headers if your API requires an API key
+    'Authorization': 'Bearer YOUR_API_KEY' // Replace YOUR_API_KEY with your actual SheetDB API key
+  }
+}).then(response => {
+  if(response.ok) {
+    console.log('Row with ID 1 deleted successfully');
+    return response.json();
+  }
+  throw new Error('Network response was not ok.');
+}).then(data => {
+  console.log(data); // Log the response data
+}).catch(error => {
+  console.error('Error:', error);
+});
+
+       fetch('https://script.google.com/macros/s/AKfycbxJ2In51Av5Z9XrH8uzq22vZc3KMlnFCC9O55YSvUV-Bue5XwnEMcTXH0lG0AJFELTt/exec',{
+         method : 'POST',
+         headers:{
+           'content-Type' : 'application/json',
+         },
+         body : JSON.stringify(updateData),
+       }
+       ).then(function(response){return response.json()}).then(function (data){console.log(data)})
+
+  
+       
+      })
+      
+    }
+    
+  }})
+}
+function reloadPage() {
+    location.reload();
+}
+//console.log("CAPTCHA:", refer);
+//men page code start here
+function mainHomePage(){
+  let homeArea = document.querySelector('.home-main');
+  homeArea.innerHTML = ` <header>
+    <div class="left" style="margin-left: 10px;">
+      <h1>Earn Karo</h1>
+      <p>Per Refer ₹50</p>
+    </div>
+    <div class="right">
+        
+        <div class="wbox">
+       
+          <div class="wlogo">
+            <p style="font-size: 20px; margin-left:2px; "><i class="fas fa-wallet"></i></p>
+          </div>
+          <div class="wball">
+            <h3 style="color: green; margin-right: 5px; ">₹4000</h3>
+          </div>
+        </div>
+    </div>
+  </header>
+  <main>
+  <div class="main">
+   <center>
+         <hr style="margin-top: 10px;"/>
+      <hr style="margin-top: 10px;"/>
+        <div class="spinReward">
+          <div class="spinImage">
+          <img src="/Spin-the-Wheel-Logo.png" /></div>
+          <div class="spinName">
+            <h3 style="color:black;">Daily Spin</h3>
+          <span>Spin the wheel </span>
+          <p>Get reward </p>
+          </div>
+          
+        </div>
+        <br/>
+        <div class="shareTask">
+      <h3 style="margin-left: 20px;"> <i class="fas fa-share-alt" style="margin-right: 10px;"></i>Share and Get Reward</h3>
+      <button style="margin-left: 30px;">₹5</button>
+      </div>
+      <hr style="margin-top: 10px;"/>
+      <hr style="margin-top: 10px;"/>
+      </center>
+      
+    
+  <div class="apkDownloadSection">
+      <h3 style="background: indianred; color:white; width:300px;border-bottom-right-radius:10px; margin-left: 5px; margin-top: 10px;margin-bottom:10px;" >Download Apps & Get Rewards</h3>
+     <div class="appLists">
+        <div class="appSections">
+        <div class="appLogo">
+          <img src="/imagess/gpayLogo.jpg.png" height="100px"/>
+        </div>
+        <div class="appName">
+          <h3>Gpay</h3>
+          <p>scan and pay upi</p>
+        </div>
+        <div class="appDownBut" style="margin-left: 30px;">
+          <button onclick="">₹51</button>
+        </div>
+      </div>
+       <div class="appSections">
+         <div class="appLogo">
+           <img src="/imagess/naviLogo.jpg.png" height="100px" style="border-radius: 20px;" />
+         </div>
+         <div class="appName">
+           <h3>Navi</h3>
+           <p>scan and pay upi</p>
+         </div>
+         <div class="appDownBut" style="margin-left: 30px;">
+           <button onclick="">₹51</button>
+         </div>
+       </div>
+        <div class="appSections">
+          <div class="appLogo">
+            <img src="/imagess/RushLogo.jpg" height="100px" border-radius="20px"/>
+          </div>
+          <div class="appName">
+            <h3>Rush</h3>
+            <p>Play and win big</p>
+          </div>
+          <div class="appDownBut" style="margin-left: 30px;">
+            <button onclick="">₹51</button>
+          </div>
+        </div>
+         <div class="appSections">
+           <div class="appLogo">
+             <img src="/imagess/winzoLogo.jpg" height="100px" style="border-radius: 20px;"/>
+           </div>
+           <div class="appName">
+             <h3>winzo</h3>
+             <p>Play and win Big </p>
+           </div>
+           <div class="appDownBut" style="margin-left: 30px;">
+             <button onclick="">₹51</button>
+           </div>
+         </div>
+         
+     </div>
+     
+      
+  </div>
+    
+   
+      
+  </main>
+   
+  <footer>
+    <div class="homeSection" onclick="mainHomePage();">
+      <i class="fas fa-home"></i>
+     
+    </div>
+    <div class="referSection" onclick="referSection();">
+      <i class="fas fa-share-alt"></i>
+    
+    </div>
+    <div class="taskSection" onclick="transactions();">
+      <i class="fas fa-exchange-alt"></i>
+      
+    </div>
+    <div class="profileSection">
+      <i class="fas fa-user"></i>
+    
+    </div>
+  </footer>
+    
+</div>`;
+}
+function referSection(){
+  mainHomePage()
+  let area = document.querySelector('.main');
+  area.innerHTML = "";
+area.innerHTML = ` <center>
+<div class="referDocument">
+        <h3 style="color:red;margin-top:15px;">Refer to your friends and Get ₹50</h3>
+        <div class="reBox">
+          <div class="referset">         <h3>Refer Code : shi297</h3>
+          <br/>
+          <button class="referShare">Share</button>
+          </div>
+          </div>
+<div class="exp">
+  <div class="referData">
+    <h3 style="font-weight: 300;">Your Refer History</h3>
+      <div class="referdhis">
+        <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>
+       <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>
+       <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>
+       <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>   <div class="userbyrefer">
+    <span style="margin-right: 20px;">User</span><span style="margin-right: 20px;">*****7991</span><span style="color:green">Joined</span><br/><p style="font-weight: 300; margin-right: 80px;">through your link</p></div>
+    
+    </div>
+  </div>
+
+ 
+</div>
+         
+        </div>
+        </div>
+      </center>;`
+}
+function transactions(){
+  let hdr = document.querySelector('header');
+  hdr.remove();
+  let area = document.querySelector('.main');
+  area.innerHTML = ` <div class="transactions" style="min-height: 92vh;">
+      <h2 style="margin-left: 10px; position: sticky;top:10px; background: white; height: 60px; margin-top: 10px;"> <i class="fas fa-exchange-alt"></i>Transaction History </h2>
+      <div class="transDetail">
+        <div class="typeName">
+          <h3>Refer Bonus</h3>
+        </div>
+        <div class="typeW">
+          <p class="amo">+₹50</p>
+        </div>
+      </div>
+            <div class="transDetail">
+        <div class="typeName">
+          <h3>Spin Pay</h3>
+        </div>
+        <div class="typeW">
+          <p class="with">-₹250</p>
+        </div>
+      </div>
+            <div class="transDetail">
+        <div class="typeName">
+          <h3>Spin Reward</h3>
+        </div>
+        <div class="typeW">
+          <p class="amo">+₹600</p>
+        </div>
+      </div>      <div class="transDetail">
+        <div class="typeName">
+          <h3>Refer Bonus</h3>
+        </div>
+        <div class="typeW">
+          <p class="amo">+₹50</p>
+        </div>
+      </div>
+    </div>
+     
+  `;
+}
+</script>
+
+</html>
